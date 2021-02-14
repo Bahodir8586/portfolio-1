@@ -1,0 +1,95 @@
+.Footer {
+  background-color: #fff;
+  padding: 48px 128px;
+}
+.FooterNavbar {
+  display: flex;
+}
+.FooterNavbarColumn {
+  width: 100%;
+}
+.FooterNavbarColumn h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 10px;
+}
+.FooterNavbarColumn a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ccc;
+  display: block;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: all 0.3s ease;
+}
+.FooterNavbarColumn a:hover {
+  color: #666;
+}
+.PhoneNumber {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 33px;
+  margin-bottom: 12px;
+}
+.Address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+.FooterBottom {
+  display: flex;
+}
+.Language {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.Language select {
+  background-color: #f8f8fa;
+  width: 120px;
+  margin-right: 45px;
+  height: 40px;
+  padding: 10px 5px;
+  border: 1px solid rgba(58, 67, 87, 0.0347192);
+  border-radius: 2px;
+  outline: none;
+}
+.SocialMedia {
+  display: flex;
+  width: 100%;
+}
+.FooterIcon {
+  width: 36px;
+  height: 36px;
+  color: #3a4357;
+  opacity: 50%;
+  background-color: #e5e5e5;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.FooterIcon:hover {
+  background-color: #ccc;
+  opacity: 100%;
+}
+.GetMobileApp {
+  width: 50%;
+}
+.GetMobileApp h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 13px;
+  margin-left: 13px;
+}
+.GetMobileApp img {
+  cursor: pointer;
+}
